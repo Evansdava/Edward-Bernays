@@ -19,12 +19,12 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="/">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Career</a>
+                    <a class="nav-link" href="/career">Career</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Methods</a>
@@ -33,5 +33,13 @@
             </div>
         </nav>
     {% block body %}{% endblock %}
+    <footer>
+        <div class="container pt-5">
+            <div class="col-md-4 offset-4">
+                <small class="text-center text-muted">Made by David Evans:</small>
+                <small class="text-center text-muted"><a href="https://github.com/evansdava">Check out my Github</a></small>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
